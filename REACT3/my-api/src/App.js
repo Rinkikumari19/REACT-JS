@@ -1,12 +1,11 @@
-
 import './App.css';
-import Nor_class from './components/Nor_class';
+import Api_comp from './components/Api_comp';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>React Titorial</h1>
-      <Nor_class />
+      <Api_comp />
     </div>
   );
 }
