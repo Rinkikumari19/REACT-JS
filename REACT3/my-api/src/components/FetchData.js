@@ -19,11 +19,11 @@ class FetchData extends Component{
         .then(res=>{
          
             this.setState({persons:res.data});
-            console.log(this.props.inputData, "helllooooo" )
+            // console.log(this.props.inputData, "helllooooo" )
         })
         .catch(err=>{
           this.setState({error:"Page is not found"});
-          console.log(err)
+          // console.log(err)
         })
     }                 
     render(){

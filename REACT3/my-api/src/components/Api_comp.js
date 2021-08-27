@@ -36,7 +36,6 @@ class Api_comp extends Component{
                 <div>
                     {this.state.disable===false && (<FetchData inputData={this.state.search}/>)}
                 </div>
-                {/* <FetchData /> */}
             </div>
         )
     }
